@@ -1,19 +1,15 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Header from './components/Header'
 import DisneyCharacters from './components/DisneyCharacters'
 
 class App extends Component {
   render() {
-    return 
-    <>
-    <header>
-      <h1>Disney Villains</h1>
-    </header>
-    <DisneyCharacters />
-
-    </>
-
-  }
+    return (
+      <>  
+        <Header/>
+        <DisneyCharacters />
+      </>
+)}
 }
 
 export default App

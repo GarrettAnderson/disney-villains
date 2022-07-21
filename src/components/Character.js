@@ -6,6 +6,7 @@ class Character extends Component {
             <main>
                 <h3>{this.props.characterName}</h3>
                 <img src={this.props.characterImg} />
+                <p>lorem ipsum</p>
             </main>
         );
     }

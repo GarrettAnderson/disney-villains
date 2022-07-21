@@ -23,7 +23,7 @@ class DisneyCharacters extends Component {
     render() {
         return (
             <main>
-                <h1>Disney Characters</h1>
+                {/* <h1>Disney Characters</h1> */}
                 {this.state.characters.map(character => {
                     return (
                         <Character 
