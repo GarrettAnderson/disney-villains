@@ -12,6 +12,7 @@ body {
 }
 
 main {
+  background-image: '../images/thomas-kelley-5YtjgRNTli4-unsplash.jpg';
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 7px;
